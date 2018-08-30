@@ -1,5 +1,5 @@
 # C++ Makefile Template
-# Copyright (c) 2017 Manuel Weitzman
+# Copyright (C) 2018  Manuel Weitzman
 # You may use/distribute this template under the terms of the MIT LICENSE
 
 # HowTo:
@@ -43,7 +43,7 @@ CFLAGS = -O2 -Wall -Weffc++ -std=gnu++11 -Wextra -Waggregate-return \
 	-Wswitch-default -Wswitch-enum -Wtrigraphs -Wuninitialized \
 	-Wunknown-pragmas -Wunreachable-code -Wunused -Wunused-function \
 	-Wunused-label -Wunused-parameter -Wunused-value -Wunused-variable \
-	-Wvariadic-macros -Wvolatile-register-var -Wwrite-strings
+	-Wvariadic-macros -Wvolatile-register-var -Wwrite-strings -mtune=native
 LDFLAGS =
 LDLIBS =
 

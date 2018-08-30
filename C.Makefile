@@ -1,5 +1,5 @@
 # C Makefile Template
-# Copyright (c) 2017 Manuel Weitzman
+# Copyright (C) 2018  Manuel Weitzman
 # You may use/distribute this template under the terms of the MIT LICENSE
 
 # HowTo:
@@ -34,7 +34,7 @@ CFLAGS = -O2 -Wall -Wextra -std=gnu99 -Wimplicit -Wshadow -Wswitch-default \
 	 -Wswitch-enum -Wundef -Wuninitialized -Wpointer-arith \
 	 -Wstrict-prototypes -Wmissing-prototypes -Wcast-align \
 	 -Wformat=2 -Wimplicit-function-declaration -Wredundant-decls \
-	 -Wformat-security -Wno-unused-result
+	 -Wformat-security -Wno-unused-result -mtune=native
 LDFLAGS =
 LDLIBS =
 
